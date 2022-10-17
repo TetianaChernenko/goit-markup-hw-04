@@ -309,6 +309,7 @@ img {
 }
 
 .team-text {
+    margin-bottom: 16px;
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.19;
@@ -381,9 +382,7 @@ img {
  .clients-item {
     width: 170px;
     height: 92px;
-    border: 1px solid var(--color-social-icon);
-    border-radius: 4px;
-    
+       
 
  }
 
@@ -391,18 +390,21 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--color-social-icon);
+    border-radius: 4px;
     width: 100%;
     height: 100%;
 
  }
 
+  .clients-link:hover,
+  .clients-link:focus {
+      border: 1px solid var(--accent-color);
+  }
+
+
  .clients-icon {
     fill: var(--color-social-icon);
- }
-
- .clients-item:hover,
- .clients-item:focus {
-     border: 1px solid var(--accent-color);
  }
 
 
